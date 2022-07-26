@@ -7,6 +7,8 @@ h1 {
     color: orange;
     text-align: center;
     background-color: rgb(0, 0, 161);
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 h2 {
@@ -31,6 +33,7 @@ img {
     margin-right: auto;
     width: 200px;
     height: 200px;
+    border: black;
 }
 
 p {
@@ -39,6 +42,15 @@ p {
 
 ul {
     color: white;
+    font-weight: 700;
+}
+
+footer {
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 125px;
 }
 
 .list {
@@ -47,4 +59,45 @@ ul {
 
 .all_pokemon_container {
     margin: 30px;
+}
+
+.pokemon_images {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+#bulbasaur_container {
+    background-color: rgb(112, 190, 112);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border: 3px solid yellow;
+    font-weight: bold;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#charmander_container {
+    background-color: rgb(197, 150, 96);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border: 3px solid yellow;
+    font-weight: bold;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#squirtle_container {
+    background-color: rgb(121, 187, 231);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border: 3px solid yellow;
+    font-weight: bold;
+    margin-left: -15px;
+    margin-right: -15px;
 }
